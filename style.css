@@ -1,0 +1,62 @@
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
+img {
+  cursor: pointer;
+}
+#intro {
+  background: url(https://image.freepik.com/free-photo/dark-purple-shades_23-2147734216.jpg)
+    no-repeat center center fixed;
+  width: 100%;
+  -webkit-background-size: cover;
+  -u-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+#intro div {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+.col-sm-4 {
+  padding: 0;
+  border: 1px white solid;
+}
+
+.container-fluid {
+  background-color: blueviolet;
+  color: white;
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 20px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.col-sm-4:hover {
+  background-color: brown;
+}
+
+.container {
+  text-align: center;
+}
+#speakers {
+  margin-top: 20px;
+}
+#email {
+  cursor: pointer;
+}
+#email:hover {
+  color: blue;
+}
